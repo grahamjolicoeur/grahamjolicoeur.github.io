@@ -1,0 +1,131 @@
+/* 
+@import url(http://fonts.googleapis.com/css?family=Bitter);
+@import url(http://fonts.googleapis.com/css?family=Open+Sans);
+ */
+
+body {
+	/* background-color: rgba(255, 212, 120, 0.88) */
+	background-color: rgba(5, 204, 255, 0.88)
+}
+
+#wrapper {
+	height: 97vh;
+}
+
+#container {
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+h1 {
+	color: #feffff;
+	text-align: center;
+	margin: 0;
+	font: 48pt HelveticaNeue-Light, Sans-Serif;
+}
+
+.F-Name-G:hover {
+	color:red
+}
+
+.F-Name-r:hover {
+	color:orange
+}
+
+.F-Name-a:hover {
+	color:#ff0
+}
+
+.F-Name-h:hover {
+	color:green
+}
+
+.F-Name-a2:hover {
+	color:blue
+}
+
+.F-Name-m:hover {
+	color:#4b0082
+}
+
+.L-Name-J:hover {
+	color:#ee82ee
+}
+
+.L-Name-o:hover {
+	color:red
+}
+
+.L-Name-l:hover {
+	color:orange
+}
+
+.L-Name-i:hover {
+	color:#ff0
+}
+
+.L-Name-c:hover {
+	color:green
+}
+
+.L-Name-o2:hover {
+	color:blue
+}
+
+.L-Name-e:hover {
+	color:#4b0082
+}
+
+.L-Name-u:hover {
+	color:#ee82ee
+}
+
+.L-Name-r:hover {
+	color:purple
+}
+
+
+hr {
+	border-color: #feffff;
+	width: 40em
+}
+
+nav {
+	text-align: center;
+}
+
+ul {
+	list-style-type: none;
+	display: inline-block;
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+}
+
+li {
+	display: inline-block;
+	width: 200px;
+	height: 50px;
+	padding-top: 25px;
+}
+
+a {
+	color: #feffff;
+	font: bold 18pt "Lucida Grande", Lucida, Verdana, "Sans Serif";
+	text-decoration: none;
+}
+
+a:hover {
+	color: #011892
+}
+
+@media screen and (max-width: 674px) {
+	li {
+		display: block;
+	}
+	hr {
+		color: #feffff;
+		width: 90%
+	}
+}
