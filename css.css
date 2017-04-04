@@ -110,6 +110,17 @@ li {
 	padding-top: 25px;
 }
 
+#bio {
+	width: 30em;
+	color: #feffff;
+	font: 14pt "Lucida Grande", Lucida, Verdana, "Sans Serif";
+	display: block;
+	margin-left: auto;
+  	margin-right: auto;
+
+
+}
+
 a {
 	color: #feffff;
 	font: bold 18pt "Lucida Grande", Lucida, Verdana, "Sans Serif";
@@ -128,4 +139,17 @@ a:hover {
 		color: #feffff;
 		width: 90%
 	}
+	
+	#bio {
+	width: 80%;
+
+
+}
+}
+
+@media screen and (max-height: 570px) {
+
+#container {
+	position: relative;
+
 }
